@@ -1,0 +1,150 @@
+[{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1df3"
+  },
+  "nombre": "Capricho Conito",
+  "descripcion": "12 unidades",
+  "precioUnidad": 566.67,
+  "precioCaja": 6800,
+  "detalleCaja": "Con presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1df4"
+  },
+  "nombre": "Capricho Negro (12u)",
+  "descripcion": "12 unid. x 60grs",
+  "precioUnidad": 541.67,
+  "precioCaja": 6500,
+  "detalleCaja": "Con presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1df5"
+  },
+  "nombre": "Capricho Negro (24u)",
+  "descripcion": "24 unid. x 60grs",
+  "precioUnidad": 408.33,
+  "precioCaja": 9800,
+  "detalleCaja": "Sin presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1df6"
+  },
+  "nombre": "Capricho Blanco (12u)",
+  "descripcion": "12 unid. x 60grs",
+  "precioUnidad": 541.67,
+  "precioCaja": 6500,
+  "detalleCaja": "Con presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1df7"
+  },
+  "nombre": "Capricho Blanco (24u)",
+  "descripcion": "24 unid. x 60grs",
+  "precioUnidad": 408.33,
+  "precioCaja": 9800,
+  "detalleCaja": "Sin presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1df8"
+  },
+  "nombre": "Capricho Mousse (12u)",
+  "descripcion": "12 unid. x 50grs",
+  "precioUnidad": 541.67,
+  "precioCaja": 6500,
+  "detalleCaja": "Con presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1df9"
+  },
+  "nombre": "Capricho Mousse (24u)",
+  "descripcion": "24 unid. x 50grs",
+  "precioUnidad": 408.33,
+  "precioCaja": 9800,
+  "detalleCaja": "Sin presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1dfa"
+  },
+  "nombre": "Capricho Maicena (12u)",
+  "descripcion": "12 unid. x 60grs",
+  "precioUnidad": 591.67,
+  "precioCaja": 7100,
+  "detalleCaja": "Con presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1dfb"
+  },
+  "nombre": "Capricho Maicena (24u)",
+  "descripcion": "24 unid. x 60grs",
+  "precioUnidad": 458.33,
+  "precioCaja": 11000,
+  "detalleCaja": "Sin presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1dfc"
+  },
+  "nombre": "Capricho Merengue",
+  "descripcion": "24 unid. x 50grs",
+  "precioUnidad": 458.33,
+  "precioCaja": 11000,
+  "detalleCaja": "Sin presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1dfd"
+  },
+  "nombre": "Capricho Doy Pack B.",
+  "descripcion": "10 unid. x 35grs",
+  "precioUnidad": 390,
+  "precioCaja": 3900,
+  "detalleCaja": "Con presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1dfe"
+  },
+  "nombre": "Capricho Doy Pack N.",
+  "descripcion": "10 unid. x 35grs",
+  "precioUnidad": 390,
+  "precioCaja": 3900,
+  "detalleCaja": "Con presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1dff"
+  },
+  "nombre": "Capricho Alfa Wey B.",
+  "descripcion": "40 unid. x 43grs",
+  "precioUnidad": 205,
+  "precioCaja": 8200,
+  "detalleCaja": "Sin presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1e00"
+  },
+  "nombre": "Capricho Alfa Wey N.",
+  "descripcion": "40 unid. x 43grs",
+  "precioUnidad": 205,
+  "precioCaja": 8200,
+  "detalleCaja": "Sin presentación"
+},
+{
+  "_id": {
+    "$oid": "6822b8ac5a62abbdafdc1e01"
+  },
+  "nombre": "Galletitas Limón",
+  "descripcion": "24 Paquetes",
+  "precioUnidad": 1916.67,
+  "precioCaja": 46000,
+  "detalleCaja": "Con presentación"
+}]
