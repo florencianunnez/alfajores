@@ -1,19 +1,17 @@
 const mongoose = require('mongoose');
 
-// Creamos el esquema de una promoción
-const PromocionSchema = new mongoose.Schema({
-  nombre: { type: String, required: true },
-  descripcion: { type: String },
-  productosAplicables: [
-    {
-      nombreProducto: { type: String }
-    }
-  ],
-  descuento: { type: Number },
-  fechaInicio: { type: Date },
-  fechaFin: { type: Date },
-  //condiciones de la promo
-  condiciones: { type: String }
+const promocionSchema = new mongoose.Schema({
+  nombre: String,
+  descripcion: String,
+  // Referencia a los productos aplicables (alfajores) obj id para relacionar el modelo alfajor
+  productosAplicables: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Alfajor'
+  }],
+  descuento: Number,
+  fechaInicio: Date,
+  fechaFin: Date,
+  condiciones: String
 });
 
-module.exports = mongoose.model('Promocion', PromocionSchema, 'promociones');
+module.exports = mongoose.model('Promocion', promocionSchema, 'promociones');

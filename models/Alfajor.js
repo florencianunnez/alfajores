@@ -1,13 +1,11 @@
-// Importamos mongoose, la librería para manejar MongoDB con Node.js
 const mongoose = require('mongoose');
 
-// Definimos el esquema del alfajor (estructura de los documentos)
-const AlfajorSchema = new mongoose.Schema({
-  nombre: { type: String, required: true },
-  descripcion: { type: String },
-  precioUnidad: { type: Number },
-  precioCaja: { type: Number },
-  detalleCaja: { type: String }
+const alfajorSchema = new mongoose.Schema({
+  nombre: String,
+  descripcion: String,
+  precioUnidad: Number,
+  precioCaja: Number,
+  detalleCaja: String
 });
 
-module.exports = mongoose.model('Alfajor', AlfajorSchema, 'alfajores');
+module.exports = mongoose.model('Alfajor', alfajorSchema, 'alfajores');

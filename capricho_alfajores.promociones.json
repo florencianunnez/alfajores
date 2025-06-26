@@ -1,86 +1,44 @@
-[{
-  "_id": {
-    "$oid": "6822bb175a62abbdafdc1e06"
+[
+  {
+    "_id": { "$oid": "6822bb175a62abbdafdc1e06" },
+    "nombre": "Ideas Surtidos",
+    "descripcion": "Promoción especial de productos variados con 20% de descuento.",
+    "productosAplicables": [
+      { "$oid": "6822b8ac5a62abbdafdc1df3" },
+      { "$oid": "6822b8ac5a62abbdafdc1df4" },
+      { "$oid": "6822b8ac5a62abbdafdc1df6" },
+      { "$oid": "6822b8ac5a62abbdafdc1df8" },
+      { "$oid": "6822b8ac5a62abbdafdc1dfa" },
+      { "$oid": "6822b8ac5a62abbdafdc1dfc" },
+      { "$oid": "6822b8ac5a62abbdafdc1dfd" },
+      { "$oid": "6822b8ac5a62abbdafdc1dfe" },
+      { "$oid": "6822b8ac5a62abbdafdc1dff" },
+      { "$oid": "6822b8ac5a62abbdafdc1e00" }
+    ],
+    "descuento": 20,
+    "fechaInicio": "2025-05-13T00:00:00Z",
+    "fechaFin": "2025-06-13T00:00:00Z",
+    "condiciones": "Aplicable a compras por caja."
   },
-  "nombre": "Ideas Surtidos",
-  "descripcion": "Promoción especial de productos variados con 20% de descuento.",
-  "productosAplicables": [
-    {
-      "nombreProducto": "Capricho Conito"
-    },
-    {
-      "nombreProducto": "Capricho Negro"
-    },
-    {
-      "nombreProducto": "Capricho Blanco"
-    },
-    {
-      "nombreProducto": "Capricho Mousse"
-    },
-    {
-      "nombreProducto": "Capricho Maicena"
-    },
-    {
-      "nombreProducto": "Capricho Merengue"
-    },
-    {
-      "nombreProducto": "Capricho Doy Pack B."
-    },
-    {
-      "nombreProducto": "Capricho Doy Pack N."
-    },
-    {
-      "nombreProducto": "Capricho Alfa Wey B."
-    },
-    {
-      "nombreProducto": "Capricho Alfa Wey N."
-    }
-  ],
-  "descuento": 20,
-  "fechaInicio": "2025-05-13T00:00:00Z",
-  "fechaFin": "2025-06-13T00:00:00Z",
-  "condiciones": "Aplicable a compras por caja."
-},
-{
-  "_id": {
-    "$oid": "6822bb535a62abbdafdc1e08"
-  },
-  "nombre": "Clásicos",
-  "descripcion": "Promoción de productos clásicos con 15% de descuento.",
-  "productosAplicables": [
-    {
-      "nombreProducto": "Capricho Conito"
-    },
-    {
-      "nombreProducto": "Capricho Negro"
-    },
-    {
-      "nombreProducto": "Capricho Blanco"
-    },
-    {
-      "nombreProducto": "Capricho Maicena"
-    },
-    {
-      "nombreProducto": "Capricho Mousse"
-    },
-    {
-      "nombreProducto": "Capricho Merengue"
-    },
-    {
-      "nombreProducto": "Capricho Alfa Wey B."
-    },
-    {
-      "nombreProducto": "Capricho Alfa Wey N."
-    },
-    {
-      "nombreProducto": "Capricho Doy Pack B."
-    },
-    {
-      "nombreProducto": "Capricho Doy Pack N."
-    }
-  ],
-  "descuento": 15,
-  "fechaInicio": "2025-05-11T00:00:00Z",
-  "fechaFin": "2025-06-13T00:00:00Z",
-  "condiciones": "Aplicable a productos seleccionados."
-}]
+  {
+    "_id": { "$oid": "6822bb535a62abbdafdc1e08" },
+    "nombre": "Clásicos",
+    "descripcion": "Promoción de productos clásicos con 15% de descuento.",
+    "productosAplicables": [
+      { "$oid": "6822b8ac5a62abbdafdc1df3" },
+      { "$oid": "6822b8ac5a62abbdafdc1df4" },
+      { "$oid": "6822b8ac5a62abbdafdc1df6" },
+      { "$oid": "6822b8ac5a62abbdafdc1dfa" },
+      { "$oid": "6822b8ac5a62abbdafdc1df8" },
+      { "$oid": "6822b8ac5a62abbdafdc1dfc" },
+      { "$oid": "6822b8ac5a62abbdafdc1dff" },
+      { "$oid": "6822b8ac5a62abbdafdc1e00" },
+      { "$oid": "6822b8ac5a62abbdafdc1dfd" },
+      { "$oid": "6822b8ac5a62abbdafdc1dfe" }
+    ],
+    "descuento": 15,
+    "fechaInicio": "2025-05-11T00:00:00Z",
+    "fechaFin": "2025-06-13T00:00:00Z",
+    "condiciones": "Aplicable a productos seleccionados."
+  }
+]
